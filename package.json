@@ -1,0 +1,29 @@
+{
+  "name": "post-production-tracker-backend",
+  "version": "1.0.0",
+  "description": "Backend API for DigiQuest Studio Post-Production Delivery Checklist & Sign-off Tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "post-production"
+  ],
+  "author": "Intern",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^8.0.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.2.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
